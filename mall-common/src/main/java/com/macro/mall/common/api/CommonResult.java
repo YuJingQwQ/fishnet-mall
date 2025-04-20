@@ -30,7 +30,7 @@ public class CommonResult<T> {
         this.code = code;
         this.message = message;
         this.data = data;
-        this.ver = "";
+        this.ver = "v1";
     }
 
     /**
