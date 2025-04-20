@@ -136,4 +136,12 @@ public class CommonResult<T> {
     public void setData(T data) {
         this.data = data;
     }
+
+    public String getVer() {
+        return ver;
+    }
+
+    public void setVer(String ver) {
+        this.ver = ver;
+    }
 }
