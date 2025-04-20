@@ -23,7 +23,7 @@ public class CommonResult<T> {
     private String ver;
 
     protected CommonResult() {
-        this.ver = "";
+        this.ver = "v1";
     }
 
     protected CommonResult(long code, String message, T data) {
