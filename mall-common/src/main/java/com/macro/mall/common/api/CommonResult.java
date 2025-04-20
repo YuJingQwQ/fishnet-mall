@@ -17,14 +17,20 @@ public class CommonResult<T> {
      * 数据封装
      */
     private T data;
+    /**
+     * 版本号
+     */
+    private String ver;
 
     protected CommonResult() {
+        this.ver = "";
     }
 
     protected CommonResult(long code, String message, T data) {
         this.code = code;
         this.message = message;
         this.data = data;
+        this.ver = "";
     }
 
     /**
